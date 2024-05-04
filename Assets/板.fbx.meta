@@ -1,33 +1,8 @@
 fileFormatVersion: 2
-guid: 5bd9175926fe94448bb575018e702397
+guid: 21bcd1d0e953fc1408e25aa89f5a09b9
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Plane
-    100002: Sphere
-    100004: Torus
-    100006: //RootNode
-    100008: Camera
-    100010: Lamp
-    400000: Plane
-    400002: Sphere
-    400004: Torus
-    400006: //RootNode
-    400008: Camera
-    400010: Lamp
-    2000000: Camera
-    2100000: No Name
-    2100002: Material.001
-    2300000: Plane
-    2300002: Sphere
-    2300004: Torus
-    3300000: Plane
-    3300002: Sphere
-    3300004: Torus
-    4300000: Torus
-    4300002: Sphere
-    4300004: Plane
-    10800000: Lamp
+  serializedVersion: 25
+  internalIDToNameTable: []
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -56,12 +31,13 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -69,27 +45,32 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -99,8 +80,8 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
